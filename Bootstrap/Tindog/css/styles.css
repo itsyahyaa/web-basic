@@ -5,7 +5,9 @@ body{
     font-family: 'Montserrat-bold';
 }
 
-
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-black';
+}
 
 #title{
     background-color: #ff4c68;
@@ -13,7 +15,6 @@ body{
     overflow: hidden; */
 }
 .h1{
-    font-family: 'Montserrat-black', sans-serif;
     font-size: 3.5em;
     list-style: 1.5em;
     font-weight: 900;
@@ -68,7 +69,6 @@ body{
 }
 .h3{
     font-size: 2.0em;
-    font-family: 'Montserrat-black';
     font-weight: bold;
 }
 p{
@@ -90,7 +90,6 @@ p{
     color: #fff;
 }
 .h2{
-    font-family: 'Montserrat-black';
     font-weight: bold;
     font-size: 3.5rem;
     line-height: 1.5;
@@ -140,7 +139,7 @@ p{
     text-align: center;
 }
 .social-icon{
-    margin: 20px 10px;
+    margin: 20px 10px; 
     
 }
 
@@ -153,3 +152,4 @@ p{
         text-align: center;
     }
 }
+/* Improve readabilty */
