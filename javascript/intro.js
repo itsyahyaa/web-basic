@@ -64,3 +64,12 @@ var restOfChar = yNam.slice(1,5);
 restOfChar = restOfChar.toLowerCase(); // change rest of letters to lower case
 var captalizeName = firstUpperCase+restOfChar
 alert(captalizeName);
+
+
+// basic arithmetic
+// modules % 
+var cost = 10 % 2 // 5
+//Age of dog
+var age = prompt("Age of dog?");
+humangAge = (age-2)*4 + 21;
+alert("Your dog is "+ humangAge + " years old in human years");
