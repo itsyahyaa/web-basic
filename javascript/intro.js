@@ -83,3 +83,32 @@ console.log(x);
 var y =5;
 y = y - 1; //4
 console.log(y);
+
+// function
+function getmilk(){
+    alert("hello kenya");
+    console.log("Hello somalia");     
+}
+getmilk();
+
+// remove decimal
+Math.floor(1.6) // 1 
+ 
+// life in aweek Solution
+// take your current age as the input and console.log message with our time left in this format
+// inform of X days Y weeks Z month left
+function lifeInWeeks(age) {
+    var yearRemaing = 90-age; //45
+    var days = yearRemaing*365; //16425
+    var weeks = yearRemaing*52; //2340
+    var months = yearRemaing*12; //540
+
+    console.log("you have "+days+" days "+weeks+" weeks "+months+" month left")
+}
+lifeInWeeks(45)// you have 16425 days 2340 weekks 540 month left
+
+// return as output 
+function getMilk(money){
+    return money % 1.5; // output
+}
+getMilk(200); // 0.5]]
