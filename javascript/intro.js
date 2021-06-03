@@ -73,3 +73,13 @@ var cost = 10 % 2 // 5
 var age = prompt("Age of dog?");
 humangAge = (age-2)*4 + 21;
 alert("Your dog is "+ humangAge + " years old in human years");
+
+// increment and decrement 
+var x =5;
+x = x + 1; //6   
+x +=2; //7
+console.log(x);
+
+var y =5;
+y = y - 1; //4
+console.log(y);
