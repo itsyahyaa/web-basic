@@ -52,4 +52,40 @@ if(guestList.includes(name1)){ //Search if the name id in the list
     alert("welcome");
 }else{
     alert("sorry, maybe next time.");
+} 
+// write a progrsm that print 1-100
+//* 3 it print Fizz
+//* 5 it print Buzz
+//* 3 and *5 it print FizzBuzz
+
+var outPut = [];
+var count = 1;
+function fizzBuzz(){
+    if(count%3===0 && count%5===0){
+        outPut.push("FizzBuzz");
+    }
+    else if(count%3===0){
+        outPut.push("Fizz");
+    }
+    else if(count%5===0){
+        outPut.push("Buzz");
+    }
+    else{
+        outPut.push(count); // add count into outPut array
+    }
+  
+    count++;
+    console.log(outPut);
+} 
+fizzBuzz();
+//Who's Buying Lunch? COde Challenge
+ 
+names = ["yahya","ali","mohamed","osman","muctasim"];
+function whoPays(){
+    var numberOfPeople = names.length;
+    var randomPersomPosition = Math.floor(Math.random()*numberOfPeople); // 0 - 0.9999 ///0-4
+    var randomPerson = names[randomPersomPosition];
+
+    return randomPerson + "is going to buy lunch today!";
 }
+whoPays();
