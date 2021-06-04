@@ -111,4 +111,13 @@ lifeInWeeks(45)// you have 16425 days 2340 weekks 540 month left
 function getMilk(money){
     return money % 1.5; // output
 }
-getMilk(200); // 0.5]]
+getMilk(200); // 0.5
+
+// BMI = weight / height*height
+function bmiCal(weight,height){
+    var bmi = weight/Math.pow(height,2); //height*height
+    return bmi;
+}
+
+var bmi = bmiCal(65,1.8);
+console.log(Math.round(bmi));// round is to roundoff number to the nearest whole number
