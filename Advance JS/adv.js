@@ -44,3 +44,12 @@ function isLeap(year){
 }
 isLeap(2004);
 alert(year+" is a leap year");
+
+//Array
+var guestList = ["yahya","mohamed","ali","hussein","mohamud"];
+var name1 = prompt("Enter your name?");
+if(guestList.includes(name1)){ //Search if the name id in the list
+    alert("welcome");
+}else{
+    alert("sorry, maybe next time.");
+}
