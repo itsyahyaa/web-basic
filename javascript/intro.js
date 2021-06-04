@@ -116,8 +116,8 @@ getMilk(200); // 0.5
 // BMI = weight / height*height
 function bmiCal(weight,height){
     var bmi = weight/Math.pow(height,2); //height*height
-    return bmi;
+    return Math.round(bmi);
 }
 
 var bmi = bmiCal(65,1.8);
-console.log(Math.round(bmi));// round is to roundoff number to the nearest whole number
+console.log(bmi);// round is to roundoff number to the nearest whole number[[[[]]]]
