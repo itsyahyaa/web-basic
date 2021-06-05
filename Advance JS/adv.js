@@ -89,3 +89,8 @@ function whoPays(){
     return randomPerson + "is going to buy lunch today!";
 }
 whoPays();
+
+// while loops
+while(something is true){
+    //do something;
+}
