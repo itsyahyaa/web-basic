@@ -92,9 +92,9 @@ function whoPays(){
 whoPays();
 
 // while loops
-while(something is true){
+//while(something is true){
     //do something;
-}
+//}
 var i = 1;
 while(i<2){
     console.log(i);
@@ -116,3 +116,46 @@ function bearDrink(){
 }
 bearDrink();//99 bottles of beer on the wall, 99  bottles of beer
             //Take one down and pass it around, 98  bottles of beer on the wall
+
+
+//for loop
+// for(var i = 0; i<2; i++){
+
+//}
+var outPut = [];
+
+function fizzBuzz(){
+    for(var count = 1; count<101; count++){ // loop 100 times
+        if(count%3===0 && count%5===0){
+            outPut.push("FizzBuzz");
+        }
+        else if(count%3===0){
+            outPut.push("Fizz");
+        }
+        else if(count%5===0){
+            outPut.push("Buzz");
+        }
+        else{
+            outPut.push(count); // add count into outPut array
+        }
+    } 
+    console.log(outPut);
+}
+fizzBuzz();
+
+//challenge
+// feinonacciGenerator
+var first=0;
+var second=1;
+var sum=0;
+var count=1;
+function fibonacci(){
+    while(count<=n){
+        console.log(sum);
+        count++;
+        first=second;
+        second=sum;
+        sum= first+second;
+    }
+}
+fibonacci(5);
