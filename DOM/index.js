@@ -24,3 +24,5 @@ document.querySelectorAll("#list .list")[2].style.color = "purple";
 document.getElementsByClassName("btn")[0].style.backgroundColor = "red";
 // add class to the html
 document.querySelector(".btn").classList.add("btn1");
+// chamging attribute
+document.querySelector("a").setAttribute("href", "google.com");
