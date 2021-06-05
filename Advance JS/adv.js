@@ -61,22 +61,24 @@ if(guestList.includes(name1)){ //Search if the name id in the list
 var outPut = [];
 var count = 1;
 function fizzBuzz(){
-    if(count%3===0 && count%5===0){
-        outPut.push("FizzBuzz");
-    }
-    else if(count%3===0){
-        outPut.push("Fizz");
-    }
-    else if(count%5===0){
-        outPut.push("Buzz");
-    }
-    else{
-        outPut.push(count); // add count into outPut array
-    }
-  
-    count++;
+    while(count <= 100){ // loop 100 times
+        if(count%3===0 && count%5===0){
+            outPut.push("FizzBuzz");
+        }
+        else if(count%3===0){
+            outPut.push("Fizz");
+        }
+        else if(count%5===0){
+            outPut.push("Buzz");
+        }
+        else{
+            outPut.push(count); // add count into outPut array
+        }
+
+        count++;
+    } 
     console.log(outPut);
-} 
+}
 fizzBuzz();
 //Who's Buying Lunch? COde Challenge
  
@@ -85,12 +87,32 @@ function whoPays(){
     var numberOfPeople = names.length;
     var randomPersomPosition = Math.floor(Math.random()*numberOfPeople); // 0 - 0.9999 ///0-4
     var randomPerson = names[randomPersomPosition];
-
-    return randomPerson + "is going to buy lunch today!";
-}
+    return randomPerson + " is going to buy lunch today!";
+    }
 whoPays();
 
 // while loops
 while(something is true){
     //do something;
 }
+var i = 1;
+while(i<2){
+    console.log(i);
+    i++;
+}
+
+// 99 bottles of beer
+var beer = 99;
+var left = 98
+function bearDrink(){
+    while(beer >= 1){
+        console.log(beer+" bottles of beer on the wall, "+beer+"  bottles of beer");
+        console.log(" Take one down and pass it around, "+left+"  bottles of beer on the wall");
+        beer--;
+        left--;
+    }
+    console.log("0 bottles of beer on the wall, 0 bottles of beer");
+    console.log(" nothing left");
+}
+bearDrink();//99 bottles of beer on the wall, 99  bottles of beer
+            //Take one down and pass it around, 98  bottles of beer on the wall
