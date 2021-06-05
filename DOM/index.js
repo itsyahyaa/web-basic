@@ -9,3 +9,12 @@ document.querySelector("input").click();
 //selecting last li
 document.getElementsByTagName("li")[2].style.color = "green";
 document.getElementsByClassName("btn")[0].style.color = "red";
+
+document.getElementById("title").style.fontSize="30px";
+// querey selector is easiest you can put id or class
+// id = # and class = .
+// li a can also work
+document.querySelector("h1").innerHTML = "GOod byepoijhgcfx";
+document.querySelector("#list a").style.color = "red";
+
+document.querySelectorAll("#list .list")[2].style.color = "purple"; 
