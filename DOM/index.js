@@ -11,7 +11,7 @@ document.getElementsByTagName("li")[2].style.color = "green";
 document.getElementsByClassName("btn")[0].style.color = "black";
 
 document.getElementById("title").style.fontSize="30px";
-// querey selector is easiest you can put id or class
+ querey selector is easiest you can put id or class
 // id = # and class = .
 // li a can also work
 document.querySelector("h1").innerHTML = "GOod byepoijhgcfx";
