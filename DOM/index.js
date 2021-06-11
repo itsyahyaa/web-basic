@@ -1,5 +1,5 @@
-alert("hello");
-document.querySelector("h1").innerHTML = "GOod bye"
+//alert("hello");
+//document.querySelector("h1").innerHTML = "GOod bye"
 var heading = document.firstElementChild.lastElementChild.firstElementChild; // select H1
 heading.innerHTML = "Good bye";
 heading.style.color = "red";
