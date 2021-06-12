@@ -26,3 +26,5 @@ document.getElementsByClassName("btn")[0].style.backgroundColor = "red";
 document.querySelector(".btn").classList.add("btn1");
 // chamging attribute
 document.querySelector("a").setAttribute("href", "google.com");
+// chamging attribute
+document.querySelector("a").setAttribute("href", "google.com");
